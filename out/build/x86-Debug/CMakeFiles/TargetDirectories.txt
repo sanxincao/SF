@@ -1,0 +1,8 @@
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/SFML/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/SFML/CMakeFiles/SFML.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/SFML/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/terris/CMakeFiles/terris.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/terris/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x86-Debug/terris/CMakeFiles/rebuild_cache.dir

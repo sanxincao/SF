@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.8)
+aux_source_directory(. DIRECTORY)
+# 将源代码添加到此项目的可执行文件。
+add_executable (SFML ${DIRECTORY})
+target_link_libraries(SFML sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
