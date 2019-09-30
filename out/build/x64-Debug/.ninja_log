@@ -55,3 +55,10 @@
 1	127	591472184	build.ninja	4dade615eeeef877
 0	1045	591472317	SFML/CMakeFiles/SFML.dir/SFML.cpp.obj	44105029a44bfb20
 1046	1209	591472317	bin/SFML.exe	a627d574663c1525
+1	330	591561282	build.ninja	4dade615eeeef877
+4	1127	591561283	SFML/CMakeFiles/SFML.dir/SFML.cpp.obj	44105029a44bfb20
+1	1135	591561283	terris/CMakeFiles/terris.dir/main.cpp.obj	1d70689dcb6cee00
+1135	1529	591561283	bin/terris.exe	ca67705ef40c7502
+1128	1529	591561283	bin/SFML.exe	a627d574663c1525
+1	821	591561335	terris/CMakeFiles/terris.dir/main.cpp.obj	1d70689dcb6cee00
+821	968	591561335	bin/terris.exe	ca67705ef40c7502
