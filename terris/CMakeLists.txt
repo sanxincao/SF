@@ -5,5 +5,5 @@ cmake_minimum_required (VERSION 3.8)
 aux_source_directory(. DIRECTORY)
 # 将源代码添加到此项目的可执行文件。
 add_executable (terris ${DIRECTORY})
-target_link_libraries(terris sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
+target_link_libraries(terris sfml-system-d sfml-window-d sfml-graphics-d sfml-network-d sfml-audio-d)
 # TODO: 如有需要，请添加测试并安装目标。

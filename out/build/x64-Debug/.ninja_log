@@ -80,3 +80,9 @@
 713	871	591644719	bin/terris.exe	ca67705ef40c7502
 0	692	591644737	terris/CMakeFiles/terris.dir/main.cpp.obj	1d70689dcb6cee00
 692	832	591644737	bin/terris.exe	ca67705ef40c7502
+1	318	591648000	build.ninja	4dade615eeeef877
+1	376	591648000	bin/terris.exe	61499e18689c1a54
+0	134	591648122	build.ninja	4dade615eeeef877
+1	307	591648122	bin/terris.exe	2a8567083f06b786
+1	892	591648165	terris/CMakeFiles/terris.dir/main.cpp.obj	1d70689dcb6cee00
+892	1166	591648165	bin/terris.exe	2a8567083f06b786

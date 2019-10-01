@@ -45,7 +45,7 @@ int main()
 
     Texture t1,t2;
 	string path1 = "images/red.png";
-	string path2 = "image/white.png";
+	string path2 = "images/white.png";
     t1.loadFromFile(path1);
     t2.loadFromFile(path2);
 
