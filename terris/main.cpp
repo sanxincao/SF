@@ -1,7 +1,8 @@
+#include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <time.h>
 using namespace sf;
-
+using std::string;
 
 int N=30,M=20;
 int size=16;
@@ -43,8 +44,10 @@ int main()
     RenderWindow window(VideoMode(w, h), "Snake Game!");
 
     Texture t1,t2;
-    t1.loadFromFile("./images/white.png");
-    t2.loadFromFile("./images/red.png");
+	string path1 = "images/red.png";
+	string path2 = "image/white.png";
+    t1.loadFromFile(path1);
+    t2.loadFromFile(path2);
 
     Sprite sprite1(t1);
     Sprite sprite2(t2);
