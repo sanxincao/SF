@@ -6,3 +6,6 @@ C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/SFML/CMakeFiles/edi
 C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/terris/CMakeFiles/terris.dir
 C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/terris/CMakeFiles/edit_cache.dir
 C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/terris/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/snake/CMakeFiles/shadertest.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/snake/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/snake/CMakeFiles/rebuild_cache.dir

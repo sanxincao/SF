@@ -42,13 +42,11 @@ int main()
     srand(time(0));
 
     RenderWindow window(VideoMode(w, h), "Snake Game!");
-
     Texture t1,t2;
 	string path1 = "images/red.png";
 	string path2 = "images/white.png";
     t1.loadFromFile(path1);
     t2.loadFromFile(path2);
-
     Sprite sprite1(t1);
     Sprite sprite2(t2);
 

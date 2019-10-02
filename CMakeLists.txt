@@ -59,3 +59,4 @@ link_directories(${CMAKE_SOURCE_DIR}/lib)
 
 add_subdirectory ("SFML")
 add_subdirectory ("terris")
+add_subdirectory ("snake")
