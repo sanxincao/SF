@@ -9,7 +9,7 @@ class player
 {
 public:
 	int x, y;
-	eDirecton dir=STOP;
+	eDirecton dir=LEFT;
 	Color color;
 	//player();
 	player(Color c,int W,int H)
