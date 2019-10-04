@@ -19,7 +19,7 @@ int main()
 	texture.loadFromFile("background.jpg");
 	Sprite sBackground(texture);
 
-	player p1(Color::Red,W,H), p2(Color::Green,W,H);
+	player p1(Color::Red,W/2,H/2), p2(Color::Green,W,H);
 
 	Sprite sprite;
 	RenderTexture t;
@@ -49,7 +49,7 @@ int main()
 		if (Keyboard::isKeyPressed(Keyboard::W)) if (p2.dir != DOWN) p2.dir = UP;
 		if (Keyboard::isKeyPressed(Keyboard::S)) if (p2.dir != UP) p2.dir = DOWN;
 
-		if (!Game)    continue;
+		//if (!Game)    continue;
 
 		for (int i = 0; i < speed; i++)
 		{
@@ -57,7 +57,7 @@ int main()
 			if (field[p1.x][p1.y] == 1) Game = 0;
 			if (field[p2.x][p2.y] == 1) Game = 0;
 			field[p1.x][p1.y] = 1;
-			field[p2.x][p2.y] = 1;
+s			field[p2.x][p2.y] = 1;
 
 			CircleShape c(3);
 			c.setPosition(p1.x, p1.y); c.setFillColor(p1.color);    t.draw(c);
