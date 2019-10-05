@@ -10,10 +10,13 @@ class player
 public:
 	int x, y;
 	eDirecton dir=LEFT;
+	int width, heigh;
 	Color color;
 	//player();
 	player(Color c,int W,int H)
 	{
+		width = W;
+		heigh = H;
 		//x = rand() % W;
 		//y = rand() % H;
 		x = W / 2;
@@ -23,13 +26,13 @@ public:
 	}
 	void tick()
 	{
-		if (dir == DOWN) y--;
-		if (dir == UP) y++;
+		if (dir == DOWN) y++;
+		if (dir == UP) y--;
 		if (dir == RIGHT) x++;
 		if (dir == LEFT) x--;
 
-		//if (x >= W) x = 0;  if (x < 0) x = W - 1;
-		//if (y >= H) y = 0;  if (y < 0) y = H - 1;
+		if (x >= width) x = 0;  if (x < 0) x = width - 1;
+		if (y >= heigh) y = 0;  if (y < 0) y = heigh - 1;
 	}
 	//~player();
 

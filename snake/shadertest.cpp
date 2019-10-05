@@ -7,21 +7,32 @@ const int W = 600;
 const int H = 480;
 int speed = 4;
 bool field[W][H] = { 0 };
-
+RenderWindow window(VideoMode(W, H), "HHH");
+Sprite sprite;
+void initail()
+{
+	window.setFramerateLimit(60);
+}
+void draw()
+{
+	window.clear();
+	window.draw(sprite);
+	window.display();
+}
 int main()
 {
 	srand(time(0));
 
-	RenderWindow window(VideoMode(W, H), "The Tron Game!");
-	window.setFramerateLimit(60);
-
+	//RenderWindow window(VideoMode(W, H), "The Tron Game!");
+	
+	initail();
 	Texture texture;
 	texture.loadFromFile("background.jpg");
 	Sprite sBackground(texture);
 
 	player p1(Color::Red,W/2,H/2), p2(Color::Green,W,H);
 
-	Sprite sprite;
+	
 	RenderTexture t;
 	t.create(W, H);
 	t.setSmooth(true);
@@ -54,11 +65,11 @@ int main()
 		for (int i = 0; i < speed; i++)
 		{
 			p1.tick(); p2.tick();
-			if (field[p1.x][p1.y] == 1) Game = 0;
-			if (field[p2.x][p2.y] == 1) Game = 0;
-			field[p1.x][p1.y] = 1;
-s			field[p2.x][p2.y] = 1;
-
+			//if (field[p1.x][p1.y] == 1) Game = 0;
+			//if (field[p2.x][p2.y] == 1) Game = 0;
+			//field[p1.x][p1.y] = 1;
+			//field[p2.x][p2.y] = 1;
+			//这条蛇不能复位
 			CircleShape c(3);
 			c.setPosition(p1.x, p1.y); c.setFillColor(p1.color);    t.draw(c);
 			c.setPosition(p2.x, p2.y); c.setFillColor(p2.color);    t.draw(c);
@@ -66,9 +77,7 @@ s			field[p2.x][p2.y] = 1;
 		}
 
 		////// draw  ///////
-		window.clear();
-		window.draw(sprite);
-		window.display();
+		draw();
 	}
 
 	return 0;
