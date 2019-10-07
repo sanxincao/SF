@@ -48,3 +48,12 @@ game::~game()
 {
 	delete this->window;
 }
+void game::redner()
+{
+	this->window->clear();
+	this->window->display();
+}
+void game::update()
+{
+ 
+}

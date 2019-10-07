@@ -3,7 +3,12 @@
 游戏程序设计
 ## Install
 点击 clone and download
+我记不清了,点击open in visual 是否支持2017
+但这个项目需要在installer 的c++ 中安装 cmake 工作负载
 ## Usage
+可执行文件在out/build/bin中
+需要手动将dll拷贝至此（再加急修改ignore啦）
+sfml默认的加载路径也是在exe同级，所有的素材也要放在这里
 
 打开项目选择Cmake
 新建项目时在主cmakelist末尾加
@@ -14,8 +19,9 @@ add_subdirectory ("SFML")
 ```
 
 新建项目文件夹 在子cmakelist 中
+```
 target_link_libraries(项目名 sfml-system sfml-window sfml-graphics sfml-network sfml-audio 加上所使用的库)
-
+```
 别问问什么不能自动生成
 
 求求你别问啦！
