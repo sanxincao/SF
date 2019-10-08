@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\SOURCE\REPOS\SFML\OUT\BUILD\X64-DEBUG\CMAKEFILES\F97F1C9794830AC04EB7C19835667805\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/source/repos/SFML -BC:/Users/Administrator/source/repos/SFML/out/build/x64-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/source/repos/SFML/out/build/x64-Debug/SFML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

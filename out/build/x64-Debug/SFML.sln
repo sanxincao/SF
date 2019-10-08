@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{54E3FE95-3F5E-347B-BC1A-A4E926E55B8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DDEDFB8-6A50-3D7B-AE3E-BF9ADF9F6025} = {2DDEDFB8-6A50-3D7B-AE3E-BF9ADF9F6025}
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9} = {6CA04615-CAAA-39F6-B87C-354BA038C6D9}
+		{FA9C79B5-0E65-3379-9B45-DEAB8DB3AB27} = {FA9C79B5-0E65-3379-9B45-DEAB8DB3AB27}
+		{755A71C6-1FDD-3562-BCA0-6F8EC4FF0E30} = {755A71C6-1FDD-3562-BCA0-6F8EC4FF0E30}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML", "SFML\SFML.vcxproj", "{2DDEDFB8-6A50-3D7B-AE3E-BF9ADF9F6025}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9} = {6CA04615-CAAA-39F6-B87C-354BA038C6D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{6CA04615-CAAA-39F6-B87C-354BA038C6D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shadertest", "snake\shadertest.vcxproj", "{FA9C79B5-0E65-3379-9B45-DEAB8DB3AB27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9} = {6CA04615-CAAA-39F6-B87C-354BA038C6D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "terris", "terris\terris.vcxproj", "{755A71C6-1FDD-3562-BCA0-6F8EC4FF0E30}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9} = {6CA04615-CAAA-39F6-B87C-354BA038C6D9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E3FE95-3F5E-347B-BC1A-A4E926E55B8B}.Debug|x64.ActiveCfg = Debug|x64
+		{2DDEDFB8-6A50-3D7B-AE3E-BF9ADF9F6025}.Debug|x64.ActiveCfg = Debug|x64
+		{2DDEDFB8-6A50-3D7B-AE3E-BF9ADF9F6025}.Debug|x64.Build.0 = Debug|x64
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9}.Debug|x64.ActiveCfg = Debug|x64
+		{6CA04615-CAAA-39F6-B87C-354BA038C6D9}.Debug|x64.Build.0 = Debug|x64
+		{FA9C79B5-0E65-3379-9B45-DEAB8DB3AB27}.Debug|x64.ActiveCfg = Debug|x64
+		{FA9C79B5-0E65-3379-9B45-DEAB8DB3AB27}.Debug|x64.Build.0 = Debug|x64
+		{755A71C6-1FDD-3562-BCA0-6F8EC4FF0E30}.Debug|x64.ActiveCfg = Debug|x64
+		{755A71C6-1FDD-3562-BCA0-6F8EC4FF0E30}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5788F604-395F-39F5-A518-691181A85544}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

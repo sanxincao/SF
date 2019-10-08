@@ -6,8 +6,8 @@
 我记不清了,点击open in visual 是否支持2017
 但这个项目需要在installer 的c++ 中安装 cmake 工作负载
 ## Usage
-可执行文件在out/build/bin中
-需要手动将dll拷贝至此（再加急修改ignore啦）
+可执行文件在out/build/x/64/bin中
+已不再需要copy dll至此
 sfml默认的加载路径也是在exe同级，所有的素材也要放在这里
 
 打开项目选择Cmake
