@@ -9,6 +9,7 @@
 class game
 {
 public:
+
 	game();
 	virtual ~game();
 	void update();
@@ -18,6 +19,14 @@ private:
 	sf::RenderWindow* window;
 	sf::VideoMode vm;
 	sf::Event ev;
+	sf::Clock dtClock;
+	float dt;
+
+
+	std::map<std::string, int> supportedKeys;
+
+	float gridSize;
+
 
 	void InitVar();
 	void InitWindow();

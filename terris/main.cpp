@@ -1,6 +1,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <time.h>
+
 using namespace sf;
 using std::string;
 
